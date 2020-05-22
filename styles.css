@@ -1,0 +1,175 @@
+body {
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* ASIDE STYLES */
+
+.main-content {
+  display: flex;
+}
+
+.resume-main-info {
+  width: 370px;
+  background-color: #1e2939;
+  color: #ffffff;
+  font-family: Montserrat;
+}
+
+.resume-main-info__wrap {
+  padding-left: 41px;
+  padding-top: 80px;
+}
+
+.resume-main-info__contacts-phone {
+  display: flex;
+}
+
+.resume-main-info__contacts-mail {
+  display: flex;
+}
+.resume-main-info__contacts-github {
+  display: flex;
+}
+
+.resume-main-info__contacts-phone-text {
+  margin: 0;
+  line-height: 24px;
+}
+
+.resume-main-info__contacts-phone-number {
+  margin: 0;
+  text-decoration: none;
+  padding-left: 10px;
+  color: #ffffff;
+  opacity: 0.5;
+  line-height: 24px;
+}
+
+.resume-main-info__tech-skills-info {
+  padding-left: 18px;
+  letter-spacing: 0.42px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.resume-main-info__soft-skills-info {
+  padding-left: 18px;
+  letter-spacing: 0.42px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+aside > div > h3 {
+  margin-top: 54px;
+  font-size: 22px;
+}
+
+.resume-main-info__tech-skills-info {
+  color: #ff6b08;
+}
+
+.resume-main-info__soft-skills-info {
+  color: #ff6b08;
+}
+
+li > span {
+  color: white;
+}
+
+.biography-wrap {
+  width: 830px;
+}
+
+/* BIOGRAPHY STYLES */
+
+.biography-wrap {
+  padding-left: 90px;
+  font-family: Montserrat;
+}
+
+.biography-wrap__title {
+  margin-top: 108px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h3 > span {
+  color: #ff6b08;
+}
+
+.biography-wrap__candidate-bio-name {
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.biography-wrap__candidate-bio-text {
+  width: 416px;
+  margin-top: 0;
+  line-height: 24px;
+}
+.biography-wrap__projects {
+  margin-bottom: 60px;
+}
+
+.biography-wrap__projects-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.biography-wrap__projects-list {
+  padding-left: 18px;
+  font-weight: 700;
+}
+
+li > a {
+  text-decoration: none;
+  color: #595959;
+  font-weight: 400;
+}
+
+.month {
+  margin-top: 0;
+  opacity: 0.5;
+  padding-right: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 1);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.country {
+  margin-top: 0;
+  opacity: 0.5;
+  padding-left: 8px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.biography-wrap__education-period {
+  display: flex;
+}
+
+.biography-wrap__education-university {
+  color: #ff6b08;
+  font-size: 16px;
+  font-weight: 700;
+}
+.biography-wrap__education-info {
+  margin-bottom: 60px;
+}
+
+.biography-wrap {
+  margin-bottom: 108px;
+}
