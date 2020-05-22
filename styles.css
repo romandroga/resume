@@ -2,6 +2,7 @@ body {
   box-sizing: border-box;
   width: 1200px;
   margin: 0 auto;
+  min-height: 100vh;
 }
 
 *,
@@ -21,6 +22,7 @@ body {
   background-color: #1e2939;
   color: #ffffff;
   font-family: Montserrat;
+  min-height: 100vh;
 }
 
 .resume-main-info__wrap {
