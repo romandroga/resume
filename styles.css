@@ -45,17 +45,20 @@ body {
   margin: 0;
   line-height: 24px;
 }
+.resume-main-info__contacts-title {
+  font-size: 22px;
+}
 
 .resume-main-info__contacts-phone-number {
   margin: 0;
   text-decoration: none;
   padding-left: 10px;
   color: #ffffff;
-  opacity: 0.5;
+  font-style: italic;
   line-height: 24px;
 }
 
-.resume-main-info__contacts-phone-number:hover{
+.resume-main-info__contacts-phone-number:hover {
   color: #ff6b08;
   transform: scale(1.05);
   opacity: 1;
@@ -147,9 +150,8 @@ li > a {
   color: #595959;
   font-weight: 400;
   font-size: 17px;
-
 }
-li > a:hover{
+li > a:hover {
   color: #ff6b08;
   transform: scale(1.5);
 }
@@ -160,7 +162,7 @@ li > a:hover{
   padding-right: 10px;
   border-right: 1px solid rgba(0, 0, 0, 1);
   font-size: 12px;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .country {
@@ -186,4 +188,21 @@ li > a:hover{
 
 .biography-wrap {
   margin-bottom: 108px;
+}
+.biography-wrap__works-list {
+  list-style: none;
+  padding: 0;
+}
+.biography-wrap__work-experience {
+  margin-bottom: 50px;
+}
+.biography-wrap__work-experience-title {
+  font-size: 1.5em;
+}
+.biography-wrap__works-list-item {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+.biography-wrap__works-list-item > p {
+  font-weight: bold;
 }
