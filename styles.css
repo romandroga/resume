@@ -24,10 +24,13 @@ body {
   font-family: Montserrat;
   min-height: 100vh;
 }
+.resume-main-info__photo > img {
+  max-width: 100%;
+}
 
 .resume-main-info__wrap {
   padding-left: 41px;
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 .resume-main-info__contacts-phone {
@@ -111,7 +114,7 @@ li > span {
 .biography-wrap__title {
   margin-top: 108px;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
 }
 
