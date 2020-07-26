@@ -66,6 +66,18 @@ body {
   transform: scale(1.05);
   opacity: 1;
 }
+.resume-main-info__tech-skills {
+  margin-bottom: 45px;
+}
+
+.resume-main-info__tech-skills ul li span {
+  color: black;
+  font-size: 16px;
+}
+.resume-main-info__tech-skills-title {
+  font-size: 24px;
+  font-weight: 700;
+}
 
 .resume-main-info__tech-skills-info {
   padding-left: 18px;
@@ -94,6 +106,7 @@ aside > div > h3 {
 
 .resume-main-info__soft-skills-info {
   color: #ff6b08;
+  margin-bottom: 50px;
 }
 
 li > span {
@@ -139,13 +152,20 @@ h3 > span {
 }
 
 .biography-wrap__projects-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
 }
 
 .biography-wrap__projects-list {
   padding-left: 18px;
   font-weight: 700;
+}
+.biography-wrap__projects-list-item-description {
+  font-weight: normal;
+}
+.biography-wrap__projects-list-item {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 li > a {
@@ -161,7 +181,7 @@ li > a:hover {
 
 .month {
   margin-top: 0;
-  opacity: 0.5;
+  opacity: 0.8;
   padding-right: 10px;
   border-right: 1px solid rgba(0, 0, 0, 1);
   font-size: 12px;
@@ -170,10 +190,10 @@ li > a:hover {
 
 .country {
   margin-top: 0;
-  opacity: 0.5;
+  color: black;
   padding-left: 8px;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .biography-wrap__education-period {
@@ -192,20 +212,27 @@ li > a:hover {
 .biography-wrap {
   margin-bottom: 108px;
 }
-.biography-wrap__works-list {
+.resume-main-info__works-list {
   list-style: none;
   padding: 0;
 }
-.biography-wrap__work-experience {
+.resume-main-info__works-list-item-name {
+  font-size: 16px;
+}
+.resume-main-info__works-list-item-description {
+  font-size: 14px;
+}
+.resume-main-info__work-experience {
   margin-bottom: 50px;
 }
-.biography-wrap__work-experience-title {
+.resume-main-info__work-experience-title {
   font-size: 1.5em;
 }
 .biography-wrap__works-list-item {
   font-size: 1.17em;
   font-weight: bold;
 }
+
 .biography-wrap__works-list-item > p {
   font-weight: bold;
 }
